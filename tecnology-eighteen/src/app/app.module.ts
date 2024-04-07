@@ -10,12 +10,14 @@ import { CardProductsComponent } from './card-products/card-products.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CardProductsComponent,
+    IniciarSesionComponent,
   ],
   imports: [
     BrowserModule,

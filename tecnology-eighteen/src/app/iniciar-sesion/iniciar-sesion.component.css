@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #050746;
+    color: white;
+  }
+  
+  .column {
+    padding: 20px;
+  }
+  
+  .column img {
+    max-width: 100%;
+  }
+  
+  .login-form {
+    width: 300px;
+  }
+  
+  .input-field {
+    width: 100%;
+  }
+  
+  .mat-card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btnIniciarSesion {
+    background-color: #F63700 !important;
+  }
+  
