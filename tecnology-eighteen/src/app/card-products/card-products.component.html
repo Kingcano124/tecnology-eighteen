@@ -1,0 +1,30 @@
+<h1 class="titulo-productos"><b>PRODUCTOS</b></h1>
+<div class="card-container">
+  <mat-card *ngFor="let card of cards" class="example-card">
+    <mat-card-header>
+      <mat-card-title>{{ card.title }}</mat-card-title>
+    </mat-card-header>
+    <img
+      mat-card-image
+      [src]="card.image"
+      alt="Photo of a Shiba Inu"
+      class="imgProducto"
+    />
+    <mat-card-content>
+      <p>{{ card.content }}</p>
+      <p class="colorPrecio">
+        <b>{{ card.precio }}</b>
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-flat-button color="primary">
+        Ver detalles y ordenar
+        <img
+          src="../../assets/Iconos/order-delivery.png"
+          alt="Icono"
+          style="width: 24px; height: 24px"
+        />
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
