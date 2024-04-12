@@ -1,0 +1,33 @@
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050746;
+    color: #fff;
+    padding: 40px 100px;
+  }
+  
+  .info,
+  .contacto {
+    flex: 1;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  .sello {
+    text-align: center;
+  }
+  
+  .sello img {
+    width: 150px;
+    height: 150px;
+  }
+  
