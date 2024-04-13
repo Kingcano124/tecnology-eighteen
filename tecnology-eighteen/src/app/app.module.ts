@@ -14,6 +14,13 @@ import { IniciarSesionComponent } from './iniciar-sesion/iniciar-sesion.componen
 import { FooterComponent } from './footer/footer.component';
 import {MatIconModule} from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderAdminComponent } from './header-admin/header-admin.component';
+import { MenuHamburgerComponent } from './menu-hamburger/menu-hamburger.component';
+import { UserAdminComponent } from './pages/user-admin/user-admin.component';
+import {MatTableModule} from '@angular/material/table';
+
+
+
 
 @NgModule({
   declarations: [
@@ -21,6 +28,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CardProductsComponent,
     IniciarSesionComponent,
     FooterComponent,
+    HeaderAdminComponent,
+    MenuHamburgerComponent,
+    UserAdminComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +39,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule
 
   ],
   providers: [],

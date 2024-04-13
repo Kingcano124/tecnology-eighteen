@@ -1,14 +1,15 @@
 
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     background-color: #050746;
     color: #fff;
     padding: 40px 100px;
+    /* margin-left: 250px; */
   }
   
-  .info,
+  .info,s
   .contacto {
     flex: 1;
   }

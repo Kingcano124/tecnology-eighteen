@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050746;
+    color: #fff;
+    padding: 20px 30px;
+    /* margin-left: 250px; */
+}
+
+.name-user{
+    background-color: #F66D46;
+    padding: 8px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.logo-project{
+    height: 40px; 
+    width: 40px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile img {
+    height: 50px;
+}

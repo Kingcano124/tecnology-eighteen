@@ -1,0 +1,30 @@
+.container{
+    margin-left: 250px;
+}
+
+table {
+    width: 100%;
+}
+  
+.mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.title{
+    margin-top: 50px;
+    text-align: center;
+    color: #F66D46;
+    font-weight: bold;
+}
+
+.container-btn {
+    margin-right: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+.btn-add {
+    background-color: orange; /* Cambiar color de fondo */
+    color: white; /* Cambiar color de texto */
+}
