@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardProductsComponent } from './card-products/card-products.component';
 
-
 /* Material Angular */
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
@@ -18,7 +17,12 @@ import { HeaderAdminComponent } from './header-admin/header-admin.component';
 import { MenuHamburgerComponent } from './menu-hamburger/menu-hamburger.component';
 import { UserAdminComponent } from './pages/user-admin/user-admin.component';
 import {MatTableModule} from '@angular/material/table';
-
+import { RegistrarseComponent } from './registrarse/registrarse.component';
+import { HeaderInicialComponent } from './header-inicial/header-inicial.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatMenuModule} from '@angular/material/menu';
+import { DescuentosComponent } from './descuentos/descuentos.component';
 
 
 
@@ -30,7 +34,12 @@ import {MatTableModule} from '@angular/material/table';
     FooterComponent,
     HeaderAdminComponent,
     MenuHamburgerComponent,
-    UserAdminComponent
+    UserAdminComponent,
+    RegistrarseComponent,
+    HeaderInicialComponent,
+    DescuentosComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
@@ -39,8 +48,11 @@ import {MatTableModule} from '@angular/material/table';
     MatInputModule,
     MatButtonModule,
     MatIconModule,
+    MatGridListModule,
     BrowserAnimationsModule,
-    MatTableModule
+    MatTableModule,
+    MatToolbarModule,
+    MatMenuModule
 
   ],
   providers: [],

@@ -1,18 +1,15 @@
-.example-card {
-    max-width: 400px;
-  }
+
   .card-container {
     display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en líneas si no caben en el contenedor */
-    justify-content: space-between; /* Distribuye el espacio entre las tarjetas */
-    margin: 60px;
+    flex-direction: column; /* Coloca las tarjetas en una columna */
+    align-items: center; /* Centra las tarjetas horizontalmente */
   }
   .example-card {
-    flex-basis: calc(
-      50% - 10px
-    ); /* Establece el ancho de cada tarjeta al 50% del contenedor con un espacio de 10px entre ellas */
+    /* max-width: 400px; */
+    width: 90%; /* Asegura que las tarjetas ocupen el 100% del contenedor */
     margin-bottom: 20px; /* Espacio inferior entre las tarjetas */
-  }
+    margin: 15px;
+}
   
   .mat-mdc-card {
     background-color: #d9d9d9 !important;
@@ -47,7 +44,14 @@
     margin-right: 20px;
     margin-bottom: 10px;
     width: 300px; /* Ancho deseado */
-    height: 230px;
+    height: 160px;
+  }
+  .imgCertificado {
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 200px !important; /* Ancho deseado */
+    height: 120px !important;
   }
   
   .colorPrecio {
@@ -55,3 +59,19 @@
     font-size: 18px;
   }
   
+
+  .card-content {
+    display: flex; 
+    /* Utiliza flexbox para alinear los elementos */
+  }
+  
+  .imgProducto {
+    margin-right: 20px; /* Agrega espacio a la derecha de la imagen */
+  }
+  
+  .text-content {
+    flex-grow: 1; /* Permite que el contenido de texto ocupe el espacio restante */
+  }
+.mat-mdc-card-title{
+color: red;
+}

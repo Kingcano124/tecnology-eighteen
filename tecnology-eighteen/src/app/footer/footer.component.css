@@ -5,14 +5,22 @@
     align-items: center;
     background-color: #050746;
     color: #fff;
-    padding: 40px 100px;
+    padding: 30px 30px;
     /* margin-left: 250px; */
+    position: relative; 
+    bottom: 0;
+    /*width: 100%;*/
+    z-index: 1000;
+
   }
   
-  .info,s
-  .contacto {
-    flex: 1;
-  }
+.info,
+.contacto,
+.sello {
+  flex: 1; 
+  margin: 0 10px; /* Ajusta el espacio entre las columnas */
+  max-width: 50%;
+}
   
   h2 {
     margin-bottom: 10px;
@@ -28,7 +36,7 @@
   }
   
   .sello img {
-    width: 150px;
-    height: 150px;
+    width: 115px;
+    height: 115px;
   }
   

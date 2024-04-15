@@ -1,0 +1,63 @@
+<mat-grid-list cols="2" rowHeight="2:2">
+  <mat-grid-tile>
+    <img
+      src="../../assets/Imgenes/registrarse-img.png"
+      alt=""
+      srcset=""
+      id="imgRegistrarse"
+    />
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <form class="registroForm textcenter">
+      <h2 class="color6358dc negrita">Registro</h2>
+      <mat-form-field class="example-full-width">
+        <mat-label>Nombre completo</mat-label>
+        <input
+          type="text"
+          matInput
+          placeholder="Nombre completo"
+          name="nombre"
+          id="nombre"
+        />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Correo</mat-label>
+        <input
+          type="email"
+          matInput
+          placeholder="Correo electrónico"
+          name="correo"
+          id="correo"
+        />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Contraseña</mat-label>
+        <input
+          type="password"
+          matInput
+          placeholder="Contraseña"
+          name="contrasena"
+          id="contrasena"
+        />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Comfirmar Contraseña</mat-label>
+        <input
+          type="password"
+          matInput
+          placeholder="Confirmar Contraseña"
+          name="confirmarContrasena"
+          id="confirmarContrasena"
+        />
+      </mat-form-field>
+
+      <div class="full-width">
+        <button class="btn050746 full-width border-rounded">Registrar</button>
+      </div>
+      <br />
+      <p>
+        ¿Ya tienes una cuenta? <a href="#" class="color6358dc">Inicia sesión</a>
+      </p>
+    </form>
+  </mat-grid-tile>
+</mat-grid-list>

@@ -1,0 +1,23 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar.mat-primary{
+    background: #050746 !important;
+  }
+  
+
+.mat-mdc-unelevated-button.mat-primary {
+ --mdc-filled-button-container-color:#f63700 !important;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .whatsapp-button img {
+    width: 60px;
+    height: auto;
+  }

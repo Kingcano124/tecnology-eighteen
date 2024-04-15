@@ -6,11 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-products.component.css']
 })
 export class CardProductsComponent {
+
   cards = [
     {
       title: 'Portatil ASUS',
       image: '../../assets/Imgenes/pc2.png',
-      content: 'Computador Portátil Gamer Victus ASUS 15.6" Pulgadas fb0128la - AMD Ryzen 5 - RAM 8GB',
+      content: 'Computador Portátil Gamer Victus ASUS 15.6" Pulgadas fb0128la \r\n- AMD Ryzen 5 - RAM 8GB',
       precio: ' Precio: $3.200.000'
     },
     {
@@ -45,4 +46,5 @@ export class CardProductsComponent {
     },
     // Aquí puedes agregar más objetos para representar más tarjetas
   ];
+
 }

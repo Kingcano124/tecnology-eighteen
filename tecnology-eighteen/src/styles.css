@@ -2,3 +2,25 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.color050746{
+    color: #050746 !important;
+}
+.color6358dc{
+    color: #6358dc !important;
+}
+.textcenter{
+    text-align: center !important;
+}
+.negrita{
+    font-weight: bold;
+}
+.btn050746{
+    background: #050746 !important;
+    color: #fff !important;
+    font-weight: bold;
+    border-radius: 5px !important;
+    padding: 10px;
+}
+.border-rounded{
+    border-radius: 10px !important;
+}
