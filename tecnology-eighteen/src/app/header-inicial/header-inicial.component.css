@@ -21,3 +21,8 @@
     width: 60px;
     height: auto;
   }
+
+  .btn-admin{
+    display: flex;
+    align-items: center;
+  }

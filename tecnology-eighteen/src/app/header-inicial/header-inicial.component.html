@@ -9,8 +9,12 @@
       <button mat-button (click)="mostrarDescuentos()">Descuentos</button>
       <button mat-button>Contacto</button>
       <button mat-button>¿Quiénes somos? </button>  
-       <button  mat-flat-button color="primary"  (click)="userAdmin()"style="margin-left: auto;">Admin </button>  
-       <button  mat-flat-button color="primary"  (click)="iniciarSesion()"style="margin-left: auto;">Iniciar sesión </button>  
+      <div style="margin-left: auto;">
+        <a  href="/administrador" mat-flat-button color="primary" style="margin-right: 10px;">Admin</a>
+        <button  mat-flat-button color="primary"  (click)="iniciarSesion()">Iniciar sesión </button>  
+      </div>
+    
+      
     </mat-toolbar>
   </p>
   <!-- <div class="whatsapp-button">

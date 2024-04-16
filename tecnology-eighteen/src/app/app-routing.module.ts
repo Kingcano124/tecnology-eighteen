@@ -10,6 +10,7 @@ import { DetalleProductosComponent } from './detalle-productos/detalle-productos
 import { ConsultarProductosComponent } from './consultar-productos/consultar-productos.component';
 import { CrearProductosComponent } from './crear-productos/crear-productos.component';
 import { ModificarProductosComponent } from './modificar-productos/modificar-productos.component';
+import { UserAdminComponent } from './pages/user-admin/user-admin.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/descuentos', pathMatch: 'full' },
@@ -22,7 +23,9 @@ const routes: Routes = [
   { path: 'detalleProducto', component: DetalleProductosComponent },
   { path: 'consultarProductos', component: ConsultarProductosComponent },
   { path: 'crearProductos', component: CrearProductosComponent },
-  { path: 'modificarProductos', component: ModificarProductosComponent }
+  { path: 'modificarProductos', component: ModificarProductosComponent },
+  { path: 'administrador', component: UserAdminComponent },
+
 
 ];
 
