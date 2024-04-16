@@ -21,4 +21,8 @@ export class HeaderInicialComponent {
     this.router.navigateByUrl('/iniciar-sesion'); // Cambia '/productos' por la ruta correcta de tus productos
   }
 
+  userAdmin() {
+    this.router.navigateByUrl('/administrator'); 
+  }
+
 }
