@@ -3,7 +3,7 @@
   height: 100%;
   background-color: #414245;
   position: fixed;
-  top: 0;
+   top: 0px;
   /* left: -250px; */
   transition: left 0.3s ease;
 }
