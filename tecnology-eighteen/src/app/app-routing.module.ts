@@ -24,7 +24,7 @@ const routes: Routes = [
   { path: 'consultarProductos', component: ConsultarProductosComponent },
   { path: 'crearProductos', component: CrearProductosComponent },
   { path: 'modificarProductos', component: ModificarProductosComponent },
-  { path: 'administrador', component: UserAdminComponent },
+  { path: 'users', component: UserAdminComponent },
 
 
 ];
