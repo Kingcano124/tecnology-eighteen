@@ -1,0 +1,75 @@
+<h1 class="titulo-productos"><b>Detalles productos</b></h1>
+<div class="card-container">
+  <ng-container *ngFor="let card of cards">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title></mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="card-content">
+            <div class="gallery">
+                <div class="thumbnails">
+                  <img src="../../assets/Imgenes/pc.png" alt="Imagen 1" class="thumbnail">
+                  <img src="../../assets/Imgenes/pc.png" alt="Imagen 2" class="thumbnail">
+                  <img src="../../assets/Imgenes/pc.png" alt="Imagen 3" class="thumbnail">
+                  <img src="../../assets/Imgenes/pc.png" alt="Imagen 3" class="thumbnail">
+                </div>
+                <div class="main-image">
+                    <img src="../../assets/Imgenes/pc.png" alt="Imagen principal">
+                  </div>
+            
+              </div>
+            <div class="text-content">
+              <p class="colorPrecio">
+                <b>{{ card.precio }}</b>
+              </p>
+              <div  class="colorPrecio" style="
+              margin-top: 50px;"[innerHTML]="card.content"></div>
+              <img
+              mat-card-image
+              src="../../assets/Iconos/pagar.png"
+              alt="Photo of a Shiba Inu"
+              class="imgCertificado"
+            />
+            </div>
+          </div>
+          
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-flat-button color="primary">
+          Ordenar
+          <img
+            src="../../assets/Iconos/order-delivery.png"
+            alt="Icono"
+            style="width: 24px; height: 24px"
+          />
+        </button>
+      </mat-card-actions>
+    </mat-card>
+
+    <div class="column-container">
+        <div class="column">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title><u>Caracteristicas principales</u> </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="contenidoCards" style="margin-top: 50px;" [innerHTML]="cardsDos.content"></div>
+            </mat-card-content>
+          </mat-card>
+        </div>
+        <div class="column">
+          <mat-card class="example-card">
+            <mat-card-header>
+              <mat-card-title><u>Acerca del producto</u></mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="contenidoCards" style="margin-top: 50px;" [innerHTML]="cardsDos.contentDos"></div>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+  </ng-container>
+</div>
+
+

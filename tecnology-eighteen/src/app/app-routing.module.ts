@@ -5,6 +5,10 @@ import {RegistrarseComponent} from './registrarse/registrarse.component';
 import {HeaderInicialComponent} from './header-inicial/header-inicial.component';
 import {DescuentosComponent} from './descuentos/descuentos.component';
 import { CardProductsComponent } from './card-products/card-products.component';
+import { DetalleProductosComponent } from './detalle-productos/detalle-productos.component';
+import { ConsultarProductosComponent } from './consultar-productos/consultar-productos.component';
+import { CrearProductosComponent } from './crear-productos/crear-productos.component';
+import { ModificarProductosComponent } from './modificar-productos/modificar-productos.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/descuentos', pathMatch: 'full' },
@@ -13,6 +17,10 @@ const routes: Routes = [
   { path: 'registrarse', component: RegistrarseComponent },
   { path: 'descuentos', component: DescuentosComponent },
   { path: 'productos', component: CardProductsComponent },
+  { path: 'detalleProducto', component: DetalleProductosComponent },
+  { path: 'consultarProductos', component: ConsultarProductosComponent },
+  { path: 'crearProductos', component: CrearProductosComponent },
+  { path: 'modificarProductos', component: ModificarProductosComponent },
 ];
 
 @NgModule({

@@ -23,7 +23,11 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import { DescuentosComponent } from './descuentos/descuentos.component';
-
+import { DetalleProductosComponent } from './detalle-productos/detalle-productos.component';
+import { ConsultarProductosComponent } from './consultar-productos/consultar-productos.component';
+import { CrearProductosComponent } from './crear-productos/crear-productos.component';
+import { ModificarProductosComponent } from './modificar-productos/modificar-productos.component';
+import { MatSelectModule } from '@angular/material/select';
 
 
 @NgModule({
@@ -38,6 +42,10 @@ import { DescuentosComponent } from './descuentos/descuentos.component';
     RegistrarseComponent,
     HeaderInicialComponent,
     DescuentosComponent,
+    DetalleProductosComponent,
+    ConsultarProductosComponent,
+    CrearProductosComponent,
+    ModificarProductosComponent,
     
     
   ],
@@ -52,7 +60,8 @@ import { DescuentosComponent } from './descuentos/descuentos.component';
     BrowserAnimationsModule,
     MatTableModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+    MatSelectModule
 
   ],
   providers: [],

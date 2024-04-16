@@ -1,0 +1,114 @@
+
+.card-container {
+    display: flex;
+    flex-direction: column; /* Coloca las tarjetas en una columna */
+    align-items: center; /* Centra las tarjetas horizontalmente */
+  }
+  .example-card {
+    /* max-width: 400px; */
+    width: 90%; /* Asegura que las tarjetas ocupen el 100% del contenedor */
+    margin-bottom: 20px; /* Espacio inferior entre las tarjetas */
+    margin: 15px;
+}
+  
+  .mat-mdc-card {
+    background-color: #d9d9d9 !important;
+  }
+  
+  .mat-card-actions {
+    display: flex !important; /* Usamos !important para asegurarnos de que esta regla prevalezca */
+    justify-content: center !important; /* Centramos horizontalmente */
+    align-items: center !important; /* Centramos verticalmente */
+  }
+  
+  .mat-mdc-unelevated-button.mat-primary {
+    --mdc-filled-button-container-color: #f63700 !important;
+    --mdc-filled-button-label-text-color: #fff !important;
+  }
+  
+  .mdc-card__actions {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .mat-mdc-card-header {
+    justify-content: center;
+  }
+  .titulo-productos {
+    color: #f63700;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .imgProducto {
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 300px; /* Ancho deseado */
+    height: 160px;
+  }
+  .imgCertificado {
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 200px !important; /* Ancho deseado */
+    height: 150px !important;
+  }
+  
+  .colorPrecio {
+    color: red;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .contenidoCards{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+
+  .card-content {
+    display: flex; 
+    /* Utiliza flexbox para alinear los elementos */
+  }
+  
+  .imgProducto {
+    margin-right: 20px; /* Agrega espacio a la derecha de la imagen */
+  }
+  
+  .text-content {
+    flex-grow: 1; /* Permite que el contenido de texto ocupe el espacio restante */
+  }
+.mat-mdc-card-title{
+color: red;
+}
+.gallery {
+    display: flex;
+  }
+  
+  .main-image img {
+    width: 95%; /* Tamaño de la imagen principal */
+  }
+  
+  .thumbnails {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thumbnail {
+    width: 75%; /* Tamaño de las miniaturas */
+    margin-bottom: 10px;
+  }
+  .column-container {
+    display: flex;
+    width: 94%; /* Coloca las tarjetas en una columna */
+    align-items: center;
+    padding: 0;
+  }
+  
+  .column {
+    /* flex: 1; */
+    /* margin: 10px; Espacio entre las columnas */
+     width: 100%; 
+  }
+  

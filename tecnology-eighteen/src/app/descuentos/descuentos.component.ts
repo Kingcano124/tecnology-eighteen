@@ -40,7 +40,7 @@ export class DescuentosComponent {
     {
       title: 'Monitor LG 22 pulgadas',
       image: '../../assets/Imgenes/pc.png',
-      content: 'T<ul><li>Procesador: Intel Core I7</li><li>Capacidad de Disco: Estado Solido SSD 1 TB</li><li>Memoria RAM: 32 GB</li></ul>',
+      content: '<ul><li>Procesador: Intel Core I7</li><li>Capacidad de Disco: Estado Solido SSD 1 TB</li><li>Memoria RAM: 32 GB</li></ul>',
       precio: 'Precio: $3.200.000'
     },
     // Aquí puedes agregar más objetos para representar más tarjetas
