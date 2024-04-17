@@ -32,6 +32,10 @@ import { MatSelectModule } from '@angular/material/select';
 import { ModalUserComponent } from './pages/modal-user/modal-user.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { OrdenesComponent } from './pages/ordenes/ordenes.component';
+import { ResenasComponentComponent } from './resenas-component/resenas-component.component';
+import { ContactanosComponent } from './contactanos/contactanos.component';
+import { DetalleProductoComponent } from './detalle-producto/detalle-producto.component';
+
 
 
 @NgModule({
@@ -46,13 +50,15 @@ import { OrdenesComponent } from './pages/ordenes/ordenes.component';
     RegistrarseComponent,
     HeaderInicialComponent,
     DescuentosComponent,
-
     DetalleProductosComponent,
     ConsultarProductosComponent,
     CrearProductosComponent,
     ModificarProductosComponent,
     ModalUserComponent,
-    OrdenesComponent
+    OrdenesComponent,
+    ResenasComponentComponent,
+    ContactanosComponent,
+    DetalleProductoComponent,
     
   ],
   imports: [

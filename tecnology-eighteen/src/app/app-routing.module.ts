@@ -22,11 +22,6 @@ const routes: Routes = [
   { path: 'registrarse', component: RegistrarseComponent },
   { path: 'descuentos', component: DescuentosComponent },
   { path: 'productos', component: CardProductsComponent },
-<<<<<<< HEAD
-  { path: 'resenas', component: ResenasComponentComponent},
-  { path: 'contactanos', component: ContactanosComponent},
-=======
-
   { path: 'detalleProducto', component: DetalleProductosComponent },
   { path: 'consultarProductos', component: ConsultarProductosComponent },
   { path: 'crearProductos', component: CrearProductosComponent },
@@ -35,7 +30,6 @@ const routes: Routes = [
   {path: 'ordenes', component: OrdenesComponent}
 
 
->>>>>>> 8f95a8861a25bfd8f2739294c9d4a6157b8bfcd1
 ];
 
 @NgModule({
