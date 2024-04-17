@@ -28,7 +28,8 @@ import { ConsultarProductosComponent } from './consultar-productos/consultar-pro
 import { CrearProductosComponent } from './crear-productos/crear-productos.component';
 import { ModificarProductosComponent } from './modificar-productos/modificar-productos.component';
 import { MatSelectModule } from '@angular/material/select';
-
+import { ModalUserComponent } from './pages/modal-user/modal-user.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 
 @NgModule({
@@ -47,6 +48,7 @@ import { MatSelectModule } from '@angular/material/select';
     ConsultarProductosComponent,
     CrearProductosComponent,
     ModificarProductosComponent,
+    ModalUserComponent
     
     
   ],
@@ -62,7 +64,8 @@ import { MatSelectModule } from '@angular/material/select';
     MatTableModule,
     MatToolbarModule,
     MatMenuModule,
-    MatSelectModule
+    MatSelectModule,
+    MatDialogModule
 
   ],
   providers: [],
