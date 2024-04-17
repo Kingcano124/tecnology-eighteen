@@ -1,0 +1,32 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+  .container{
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.mat-mdc-unelevated-button.mat-primary {
+    --mdc-filled-button-container-color: #f63700 !important;
+}
+
+.btn_crear{
+    text-align: center;
+}
+
+.title{
+color: #f63700;
+text-align: center;
+}

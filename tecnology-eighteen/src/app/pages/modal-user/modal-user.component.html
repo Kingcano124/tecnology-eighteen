@@ -1,0 +1,55 @@
+<h1 mat-dialog-title class="title">Crear/Actualizar usuario</h1>
+<div mat-dialog-content>
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Nombre</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Correo</mat-label>
+      <input matInput placeholder="pat@example.com" />
+      <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
+    </mat-form-field>
+  </div>
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Telefono</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Dirección</mat-label>
+        <input matInput />
+      </mat-form-field>
+  </div>
+
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Contraseña</mat-label>
+      <input matInput [type]="hide ? 'password' : 'text'" />
+      <button
+        mat-icon-button
+        matSuffix
+        (click)="hide = !hide"
+        [attr.aria-label]="'Hide password'"
+        [attr.aria-pressed]="hide"
+      >
+        <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" >
+      <mat-label>Estado</mat-label>
+      <mat-select>
+        <mat-option value="option">Activo</mat-option>
+        <mat-option value="option">Inactivo</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  </div>
+</div>
+<div mat-dialog-actions class="btn-container">
+  <button mat-button mat-dialog-close>Cerrar</button>
+  <button mat-button mat-dialog-close>Guardar</button>
+</div>

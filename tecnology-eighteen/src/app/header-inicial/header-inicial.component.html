@@ -10,11 +10,16 @@
       <button mat-button (click)="resenasView()">Reseñas</button>
       <button mat-button (click)="contactanosView()" >Contacto</button>
       <button mat-button>¿Quiénes somos? </button>  
-       <button  mat-flat-button color="primary"  (click)="iniciarSesion()"style="margin-left: auto;">Iniciar sesión </button>  
+      <div style="margin-left: auto;">
+        <a  href="/users" mat-flat-button color="primary" style="margin-right: 10px;">Administrador</a>
+        <button  mat-flat-button color="primary"  (click)="iniciarSesion()">Iniciar sesión </button>  
+      </div>
+    
+      
     </mat-toolbar>
   </p>
-  <div class="whatsapp-button">
+  <!-- <div class="whatsapp-button">
     <a href="https://api.whatsapp.com/send?phone=TUNUMERO&text=Hola%20desde%20mi%20sitio%20web" target="_blank">
       <img src="../../assets/Iconos/whatsapp.png" alt="WhatsApp">
     </a>
-  </div>
+  </div> -->

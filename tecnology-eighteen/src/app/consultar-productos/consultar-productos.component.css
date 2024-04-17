@@ -1,6 +1,7 @@
 .container{
     margin-left: 250px;
-
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 table {
@@ -15,7 +16,7 @@ table {
 .title{
     margin-top: 50px;
     text-align: center;
-    color: #F66D46;
+    color: #f63700 ;
     font-weight: bold;
 }
 
@@ -26,7 +27,6 @@ table {
   }
 
 .btn-add {
-    background-color: orange; /* Cambiar color de fondo */
+    background-color: #f63700 ; /* Cambiar color de fondo */
     color: white; /* Cambiar color de texto */
 }
-

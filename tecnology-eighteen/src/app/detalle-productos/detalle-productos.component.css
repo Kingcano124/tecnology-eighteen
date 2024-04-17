@@ -1,5 +1,5 @@
 
-  .card-container {
+.card-container {
     display: flex;
     flex-direction: column; /* Coloca las tarjetas en una columna */
     align-items: center; /* Centra las tarjetas horizontalmente */
@@ -51,12 +51,18 @@
     margin-right: 20px;
     margin-top: 30px;
     width: 200px !important; /* Ancho deseado */
-    height: 120px !important;
+    height: 150px !important;
   }
   
   .colorPrecio {
     color: red;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .contenidoCards{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5;
   }
   
 
@@ -75,8 +81,34 @@
 .mat-mdc-card-title{
 color: red;
 }
-
-.imagenDescuento{
-  height: 300px;
-  width: 1200px;
-}
+.gallery {
+    display: flex;
+  }
+  
+  .main-image img {
+    width: 95%; /* Tamaño de la imagen principal */
+  }
+  
+  .thumbnails {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thumbnail {
+    width: 75%; /* Tamaño de las miniaturas */
+    margin-bottom: 10px;
+  }
+  .column-container {
+    display: flex;
+    width: 94%; /* Coloca las tarjetas en una columna */
+    align-items: center;
+    padding: 0;
+  }
+  
+  .column {
+    /* flex: 1; */
+    /* margin: 10px; Espacio entre las columnas */
+     width: 100%; 
+  }
+  

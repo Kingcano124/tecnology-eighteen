@@ -23,10 +23,21 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import { DescuentosComponent } from './descuentos/descuentos.component';
+<<<<<<< HEAD
 import { ResenasComponentComponent } from './resenas-component/resenas-component.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
 import { DetalleProductoComponent } from './detalle-producto/detalle-producto.component';
 
+=======
+import { DetalleProductosComponent } from './detalle-productos/detalle-productos.component';
+import { ConsultarProductosComponent } from './consultar-productos/consultar-productos.component';
+import { CrearProductosComponent } from './crear-productos/crear-productos.component';
+import { ModificarProductosComponent } from './modificar-productos/modificar-productos.component';
+import { MatSelectModule } from '@angular/material/select';
+import { ModalUserComponent } from './pages/modal-user/modal-user.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { OrdenesComponent } from './pages/ordenes/ordenes.component';
+>>>>>>> 8f95a8861a25bfd8f2739294c9d4a6157b8bfcd1
 
 
 @NgModule({
@@ -41,9 +52,18 @@ import { DetalleProductoComponent } from './detalle-producto/detalle-producto.co
     RegistrarseComponent,
     HeaderInicialComponent,
     DescuentosComponent,
+<<<<<<< HEAD
     ResenasComponentComponent,
     ContactanosComponent,
     DetalleProductoComponent,
+=======
+    DetalleProductosComponent,
+    ConsultarProductosComponent,
+    CrearProductosComponent,
+    ModificarProductosComponent,
+    ModalUserComponent,
+    OrdenesComponent
+>>>>>>> 8f95a8861a25bfd8f2739294c9d4a6157b8bfcd1
     
     
   ],
@@ -58,7 +78,9 @@ import { DetalleProductoComponent } from './detalle-producto/detalle-producto.co
     BrowserAnimationsModule,
     MatTableModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+    MatSelectModule,
+    MatDialogModule
 
   ],
   providers: [],
