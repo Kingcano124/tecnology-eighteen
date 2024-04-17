@@ -20,11 +20,6 @@ export class HeaderInicialComponent {
   iniciarSesion() {
     this.router.navigateByUrl('/iniciar-sesion'); // Cambia '/productos' por la ruta correcta de tus productos
   }
-  resenasView() {
-    this.router.navigateByUrl('/resenas'); // Cambia '/productos' por la ruta correcta de tus productos
-  }
-  contactanosView() {
-    this.router.navigateByUrl('/contactanos'); // Cambia '/productos' por la ruta correcta de tus productos
-  }
+
 
 }

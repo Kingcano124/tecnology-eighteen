@@ -27,7 +27,9 @@ const routes: Routes = [
   { path: 'crearProductos', component: CrearProductosComponent },
   { path: 'modificarProductos', component: ModificarProductosComponent },
   { path: 'users', component: UserAdminComponent },
-  {path: 'ordenes', component: OrdenesComponent}
+  { path: 'ordenes', component: OrdenesComponent},
+  { path: 'resenas', component: ResenasComponentComponent},
+  { path: 'contactanos', component: ContactanosComponent}
 
 
 ];
