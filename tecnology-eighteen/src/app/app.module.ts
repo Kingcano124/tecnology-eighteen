@@ -30,6 +30,7 @@ import { ModificarProductosComponent } from './modificar-productos/modificar-pro
 import { MatSelectModule } from '@angular/material/select';
 import { ModalUserComponent } from './pages/modal-user/modal-user.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { OrdenesComponent } from './pages/ordenes/ordenes.component';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     ConsultarProductosComponent,
     CrearProductosComponent,
     ModificarProductosComponent,
-    ModalUserComponent
+    ModalUserComponent,
+    OrdenesComponent
     
     
   ],

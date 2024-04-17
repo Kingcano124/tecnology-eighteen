@@ -11,6 +11,7 @@ import { ConsultarProductosComponent } from './consultar-productos/consultar-pro
 import { CrearProductosComponent } from './crear-productos/crear-productos.component';
 import { ModificarProductosComponent } from './modificar-productos/modificar-productos.component';
 import { UserAdminComponent } from './pages/user-admin/user-admin.component';
+import { OrdenesComponent } from './pages/ordenes/ordenes.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/descuentos', pathMatch: 'full' },
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'crearProductos', component: CrearProductosComponent },
   { path: 'modificarProductos', component: ModificarProductosComponent },
   { path: 'users', component: UserAdminComponent },
+  {path: 'ordenes', component: OrdenesComponent}
 
 
 ];
