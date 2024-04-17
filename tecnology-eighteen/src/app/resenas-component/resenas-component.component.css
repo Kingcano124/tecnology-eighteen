@@ -1,0 +1,156 @@
+.review-card {
+    background-color: #f0f0f0; /* Color pastel */
+    margin-bottom: 16px; /* Ajuste del margen entre las cards */
+  }
+  
+  .user-comment {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-image {
+    width: 48px; /* Ajusta el tamaño según sea necesario */
+    height: 48px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 80px; /* Ajusta el margen entre la imagen y el comentario */
+  }
+  
+  .user-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .evidencia img {
+    width: 90px;
+    height: 90px;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(9, 26, 34);
+    font-family: Montserrat;
+  }
+  
+  .box {
+    background-color: #eee;
+    width: 95vw;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  header {
+    background-color: black;
+    color: #eee;
+    text-align: right;
+    /*text-transform: uppercase;*/
+    padding: 5px 15px 15px 0px;
+    height: 100%;
+  }
+  
+  .logo {
+    background: url("data:image/svg+xml;charset=UTF-8,%3csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg' class='logo'%3e%3c!-- Created with SVG-edit - http://svg-edit.googlecode.com/ --%3e%3cg%3e%3ctitle%3eLayer 1%3c/title%3e%3cpolygon stroke='%23eee' id='svg_2' fill='%23000000' points='98.87946319580078,50.00000123559039 74.43972710321214,93.06771850585938 25.560273894464444,93.06771850585938 1.1205368530543183,50.00000123559039 25.560273894464444,6.932284913491742 74.43972710321214,6.932284913491742 98.87946319580078,50.00000123559039 '/%3e%3c/g%3e%3c/svg%3e") no-repeat center;
+    background-size: 100% 100%;
+    width: auto;
+    height: auto;
+    float: left;
+    margin: 0 0 5px 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    text-transform: uppercase;
+  }
+  
+  .logo h1 {
+    padding: 10px 20px 20px 20px;
+  }
+  
+  h1,
+  h2 {
+    font-family: Playfair Display;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .header {
+    height: 40vw;
+    background: url(http://res.cloudinary.com/mamatron/image/upload/v1525487532/banner_edited.jpg)
+      no-repeat bottom right;
+    background-size: cover;
+    transition: width 1s, height 1s;
+  }
+  
+  .inner-container,
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  article,
+  .inner-container {
+    padding: 10px;
+  }
+  
+  article h4,
+  .featured,
+  .featured h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+  }
+  
+  header,
+  .header,
+  .about,
+  .featured,
+  .project {
+    width: 100%;
+  }
+  
+  .project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 5px 0;
+  }
+  
+  img {
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+  }
+  
+  img:hover {
+    filter: grayscale(0%);
+  }
+  
+  @media screen and (min-width: 810px) {
+    h1 {
+      font-size: 45px;
+    }
+    .header,
+    .about {
+      width: 50%;
+    }
+    .header {
+      height: auto;
+    }
+    .project {
+      width: 32%;
+    }
+  }
+  

@@ -23,6 +23,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import { DescuentosComponent } from './descuentos/descuentos.component';
+import { ResenasComponentComponent } from './resenas-component/resenas-component.component';
+import { ContactanosComponent } from './contactanos/contactanos.component';
+import { DetalleProductoComponent } from './detalle-producto/detalle-producto.component';
 
 
 
@@ -38,6 +41,9 @@ import { DescuentosComponent } from './descuentos/descuentos.component';
     RegistrarseComponent,
     HeaderInicialComponent,
     DescuentosComponent,
+    ResenasComponentComponent,
+    ContactanosComponent,
+    DetalleProductoComponent,
     
     
   ],

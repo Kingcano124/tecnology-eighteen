@@ -4,6 +4,8 @@ import {IniciarSesionComponent} from './iniciar-sesion/iniciar-sesion.component'
 import {RegistrarseComponent} from './registrarse/registrarse.component';
 import {HeaderInicialComponent} from './header-inicial/header-inicial.component';
 import {DescuentosComponent} from './descuentos/descuentos.component';
+import {ResenasComponentComponent} from './resenas-component/resenas-component.component';
+import {ContactanosComponent} from './contactanos/contactanos.component';
 import { CardProductsComponent } from './card-products/card-products.component';
 
 const routes: Routes = [
@@ -13,6 +15,8 @@ const routes: Routes = [
   { path: 'registrarse', component: RegistrarseComponent },
   { path: 'descuentos', component: DescuentosComponent },
   { path: 'productos', component: CardProductsComponent },
+  { path: 'resenas', component: ResenasComponentComponent},
+  { path: 'contactanos', component: ContactanosComponent},
 ];
 
 @NgModule({
