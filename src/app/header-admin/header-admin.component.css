@@ -26,3 +26,6 @@
 .profile img {
     height: 50px;
 }
+.mat-mdc-unelevated-button.mat-primary {
+    --mdc-filled-button-container-color: #f63700 !important;
+}
